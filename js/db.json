@@ -1,0 +1,192 @@
+{
+  "translates": [
+    {
+      "en": "hello",
+      "ko": "안녕하세요"
+    },
+    {
+      "en": "hello world",
+      "ko": "안녕하세요 세계"
+    },
+    {
+      "en": "helloworld",
+      "ko": "헬로월드"
+    },
+    {
+      "en": "$text",
+      "ko": "$text"
+    },
+    {
+      "en": "and these are important when you work with the cuban class and production.",
+      "ko": "그리고 이것은 쿠바 클래스 및 프로덕션과 함께 작업할 때 중요합니다."
+    },
+    {
+      "en": "and these are also important when it comes to the humanities as an example.",
+      "ko": "그리고 이것은 인문학을 예로 들 때도 중요합니다."
+    },
+    {
+      "en": "so for this, we will talk about security principles in general.",
+      "ko": "이를 위해 일반적인 보안 원칙에 대해 이야기하겠습니다."
+    },
+    {
+      "en": "we talk about communities, security categories and about the best practices in communities when it",
+      "ko": "우리는 커뮤니티, 보안 카테고리 및 커뮤니티의 모범 사례에 대해 이야기합니다."
+    },
+    {
+      "en": "comes to security.",
+      "ko": "보안에 온다."
+    },
+    {
+      "en": "so security is complex and it is a process, this as a general thing, security combines many different",
+      "ko": "따라서 보안은 복잡하고 프로세스입니다. 이것은 일반적으로 보안이 여러 가지를 결합합니다."
+    },
+    {
+      "en": "things.",
+      "ko": "것들."
+    },
+    {
+      "en": "it's not just one thing that we have to do and suddenly, boom, we have our security environments change,",
+      "ko": "우리가 해야 할 일이 한 가지가 아니라 갑자기, 붐, 우리의 보안 환경이 바뀌고,"
+    },
+    {
+      "en": "which means security cannot stay in a certain state for a long time.",
+      "ko": "이는 보안이 특정 상태에 오랫동안 머물 수 없다는 것을 의미합니다."
+    },
+    {
+      "en": "security has to adapt constantly to changing environments.",
+      "ko": "보안은 변화하는 환경에 지속적으로 적응해야 합니다."
+    },
+    {
+      "en": "and yes, attackers usually have the advantage because they decide when they attack.",
+      "ko": "그리고 예, 공격자는 공격 시기를 결정하기 때문에 일반적으로 이점이 있습니다."
+    },
+    {
+      "en": "it could be at the middle of the night and they pick what to attack.",
+      "ko": "한밤중에 공격할 대상을 선택할 수 있습니다."
+    },
+    {
+      "en": "it could be the weakest link in our chain.",
+      "ko": "그것은 우리 사슬에서 가장 약한 고리일 수 있습니다."
+    },
+    {
+      "en": "so because of this, let's have a look at general security principles that are going to follow this,",
+      "ko": "그렇기 때문에 이에 따라야 할 일반 보안 원칙을 살펴보고,"
+    },
+    {
+      "en": "for example, defense in depth, which means we should have multiple layers of security and redundancy",
+      "ko": "예를 들어 심층 방어, 즉 여러 계층의 보안 및 이중화가 있어야 함을 의미합니다."
+    },
+    {
+      "en": "is good.",
+      "ko": "좋다."
+    },
+    {
+      "en": "the privilege means if we, for example, assign a port, a service account, some privileges using",
+      "ko": "권한은 예를 들어 포트, 서비스 계정, 다음을 사용하여 일부 권한을 할당하는 경우를 의미합니다."
+    },
+    {
+      "en": "robust access control, then these should be the least privileges, because if someone manages to run",
+      "ko": "강력한 액세스 제어를 사용하는 경우 누군가가"
+    },
+    {
+      "en": "as that port and execute comments, at least it only has the least privileges.",
+      "ko": "해당 포트로 주석을 실행하고 최소한 최소한의 권한만 가지고 있습니다."
+    },
+    {
+      "en": "and we should also talk about limiting the attack surface, which means even limiting or removing the",
+      "ko": "또한 공격 표면을 제한하는 방법에 대해서도 이야기해야 합니다."
+    },
+    {
+      "en": "possibilities for any attacker to even exploit anything in our system.",
+      "ko": "모든 공격자가 우리 시스템의 모든 것을 악용할 가능성이 있습니다."
+    },
+    {
+      "en": "so redundancy is good, right, but only in security, you might have heard the drive principle, don't",
+      "ko": "따라서 이중화는 좋은 것이지만 보안에 대해서만 드라이브 원리를 들어보았을 수 있습니다."
+    },
+    {
+      "en": "repeat yourself.",
+      "ko": "자신을 반복합니다."
+    },
+    {
+      "en": "this is important for application development, definitely, but when it comes to security, that redundancy",
+      "ko": "이것은 애플리케이션 개발에 중요하지만 보안과 관련하여 중복성은"
+    },
+    {
+      "en": "is a good thing.",
+      "ko": "좋은 일이다."
+    },
+    {
+      "en": "let's have a look at an example.",
+      "ko": "예제를 살펴보겠습니다."
+    },
+    {
+      "en": "so we have our communities cluster and he is actually in a which likes to attack something in our cluster",
+      "ko": "그래서 우리는 커뮤니티 클러스터를 가지고 있으며 그는 실제로 우리 클러스터에서 무언가를 공격하는 것을 좋아합니다."
+    },
+    {
+      "en": "that could be the first level of defense and this could be reducing the attacks.",
+      "ko": "그것은 방어의 첫 번째 수준이 될 수 있으며 이것은 공격을 줄일 수 있습니다."
+    },
+    {
+      "en": "if it's ok, we reduce the attack surface, which means we, for example, removed unnecessary applications",
+      "ko": "괜찮으면 공격 표면을 줄입니다. 즉, 예를 들어 불필요한 응용 프로그램을 제거했습니다."
+    },
+    {
+      "en": "from our system, implemented some firewall rules.",
+      "ko": "우리 시스템에서 몇 가지 방화벽 규칙을 구현했습니다."
+    },
+    {
+      "en": "we reduced the attack surface.",
+      "ko": "공격 표면을 줄였습니다."
+    },
+    {
+      "en": "so this already keeps a lot of attackers away.",
+      "ko": "그래서 이것은 이미 많은 공격자들을 멀리하고 있습니다."
+    },
+    {
+      "en": "but our attacker right now manages to even find something exploitable and break through.",
+      "ko": "그러나 우리의 공격자는 지금 악용할 수 있는 것을 찾아 돌파할 수 있습니다."
+    },
+    {
+      "en": "then let's say we have even another security layer implemented, which again prevents many attackers",
+      "ko": "그런 다음 또 다른 보안 계층이 구현되어 많은 공격자를 다시 차단한다고 가정해 보겠습니다."
+    },
+    {
+      "en": "from even reaching further.",
+      "ko": "더 나아가는 것조차."
+    },
+    {
+      "en": "but that one attacker still manages to break through this redundant security layer.",
+      "ko": "그러나 그 한 명의 공격자는 여전히 이 중복된 보안 계층을 돌파할 수 있습니다."
+    },
+    {
+      "en": "and now it's another security layer of us, the least privileged one.",
+      "ko": "그리고 이제 우리의 또 다른 보안 계층, 가장 낮은 권한을 가진 계층입니다."
+    },
+    {
+      "en": "so even if the attacker now gained access, let's say, to a plot, at least that part runs with these",
+      "ko": "따라서 공격자가 이제 플롯에 대한 액세스 권한을 얻었더라도 적어도 해당 부분은 다음과 함께 실행됩니다."
+    },
+    {
+      "en": "privileges and the attacker can't really do a lot of harm.",
+      "ko": "권한과 공격자는 실제로 많은 피해를 줄 수 없습니다."
+    },
+    {
+      "en": "so that's the idea of a layered defense system.",
+      "ko": "이것이 바로 계층화된 방어 시스템의 아이디어입니다."
+    },
+    {
+      "en": "now, let's talk about the community's security pedigrees, so on the bottom, there is the whole operating",
+      "ko": "이제 커뮤니티의 보안 혈통에 대해 이야기해 보겠습니다. 맨 아래에는 전체 운영 체제가 있습니다."
+    },
+    {
+      "en": "various human security aspects.",
+      "ko": "다양한 인간 안보 측면."
+    },
+    {
+      "en": "she manages security best practices, the idea of this talk is now to provide you with an overview about",
+      "ko": "그녀는 보안 모범 사례를 관리합니다. 이 강연의 아이디어는 이제"
+    }
+  ]
+}
