@@ -5,7 +5,11 @@ Google translate API를 이용하여 영어를 한글로 번역하는 API 입니
 >JS, python으로 개발되어 있으며, JS의 경우 google cloud translate로 개발되어 있어 Google cloud console에서 키를 발급 후 사용할 수 있습니다. cloud translate는 500,000 글자 초과 시 요금이 부과 될 수 있습니다.
 
 > python의 경우 googletrans lib를 사용하여 무료이지만, 언제 서비스가 종료될지 모릅니다.
----
+
+## 사용 예제
+`Udemy 번역 감지를 통한 영문 자동 번역`
+![udemy_auto_translate_example](./example/udemy_auto_translate_example.gif)
+
 ## JS (google cloud translate)를 통한 실행
 `node.js를 사용하므로 node.js 최신버전을 설치 후 진행합니다.`
 ``` shell
